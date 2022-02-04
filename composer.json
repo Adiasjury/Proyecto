@@ -1,0 +1,9 @@
+{
+    "require": {
+        "endroid/qr-code": "^4.4",
+        "spipu/html2pdf": "^5.2",
+        "dompdf/dompdf": "^1.1",
+        "phpmailer/phpmailer": "^6.5",
+        "mailin-api/mailin-api-php": "^1.0"
+    }
+}
