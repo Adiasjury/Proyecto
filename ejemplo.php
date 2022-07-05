@@ -12,7 +12,7 @@ $numa=mt_Rand(100, 999);
 echo $usu;
 
 $serverName = "localhost";
-$connectionInfo = array( "Database"=>"Empresa", "UID"=>"sa", "PWD"=>"Omolap(89)0" );
+$connectionInfo = array( "Database"=>"Empresa", "UID"=>"sa", "PWD"=>"Contraseña" );
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 if( $conn === false ) {
      die( print_r( sqlsrv_errors(), true));
@@ -27,7 +27,7 @@ if( $stmt === false ) {
 }
  ?>
  $serverName = "localhost";
- $connectionInfo = array( "Database"=>"Empresa", "UID"=>"sa", "PWD"=>"Omolap(89)0" );
+ $connectionInfo = array( "Database"=>"Empresa", "UID"=>"sa", "PWD"=>"Contraseña" );
  $conn = sqlsrv_connect( $serverName, $connectionInfo);
  if (sqlsrv_connect_errno())
  {
