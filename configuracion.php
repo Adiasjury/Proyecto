@@ -90,7 +90,7 @@ if (isset($_SESSION['usu']) ){
     	 $prueba=$segundos-300;
     	 if ($fecha_de_hoy == "$date" && $segundos1 < $segundos && $prueba < $segundos1) {
     		$serverName = "localhost";
-     		$connectionInfo = array( "Database"=>"Empresa", "UID"=>"sa", "PWD"=>"Omolap(89)0");
+     		$connectionInfo = array( "Database"=>"Empresa", "UID"=>"sa", "PWD"=>"Contraseña");
      		$conn = sqlsrv_connect( $serverName, $connectionInfo);
         $sql31= "select nombre, apellido1 , apellido2 from  usuarios where id_u='$id_u'";
         $stmt31 = sqlsrv_query( $conn, $sql31);
