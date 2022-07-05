@@ -1,7 +1,7 @@
 <?php
 
 $serverName = "localhost";
-$connectionInfo = array( "Database"=>"Empresa", "UID"=>"sa", "PWD"=>"Omolap(89)0");
+$connectionInfo = array( "Database"=>"Empresa", "UID"=>"sa", "PWD"=>"Contaseña");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 $sql1 = "select * from usuarios where usuario ='".$usus."' and password ='".$pass."'";
 $stmt1 = sqlsrv_query( $conn, $sql1);
