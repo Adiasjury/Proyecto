@@ -2,7 +2,7 @@
 $usu = 'cpa5794';
 $pa1 = 'Hola';
 $pa2 ='Hola';
-$dni = '26258578F';
+$dni = '876543';
 $cdp = '23700';
 $ema = 'cpa5794@gmail.com';
 $nom = 'Carlos';
